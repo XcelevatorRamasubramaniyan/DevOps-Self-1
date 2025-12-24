@@ -39,4 +39,8 @@ class AppTest {
 
         assertEquals("Division by zero is not allowed", ex.getMessage());
     }
+    @Test
+    void testModulus(){
+        assertEquals(1,calculator.modulus(10,3));
+    }
 }
